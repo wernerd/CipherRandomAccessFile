@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3edf3e73-530c-4313-a2fe-a1af9484c246" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/wdi/cipherrandomaccess/CipherRandomAccessFile.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/kotlin/wdi/cipherrandomaccess/ReadWriteTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6840">
+              <caret line="460" column="35" selection-start-line="460" selection-start-column="35" selection-end-line="460" selection-end-column="35" />
+              <folding>
+                <element signature="e#32#169#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Short</find>
+      <find>readInt</find>
+      <find>65535</find>
+      <find>readLong</find>
+      <find>readFloat</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>readLong</replace>
+      <replace>Int</replace>
+      <replace>readFloat</replace>
+      <replace>readDouble</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/kotlin/wdi/cipherrandomaccess/BasicConstructorTest.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/wdi/cipherrandomaccess/ReadWriteTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/wdi/cipherrandomaccess/CipherRandomAccessFile.kt" />
+        <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1177" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CipherRandomAccessFile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CipherRandomAccessFile" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="CipherRandomAccessFile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CipherRandomAccessFile" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545838224055" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ReadWriteTest">
+    <configuration name="BasicConstructorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wdi.cipherrandomaccess.CipherRandomAccessFile.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wdi.cipherrandomaccess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wdi.cipherrandomaccess" />
+      <option name="MAIN_CLASS_NAME" value="wdi.cipherrandomaccess.BasicConstructorTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadWriteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wdi.cipherrandomaccess.CipherRandomAccessFile.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wdi.cipherrandomaccess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wdi.cipherrandomaccess" />
+      <option name="MAIN_CLASS_NAME" value="wdi.cipherrandomaccess.ReadWriteTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadWriteTest.write_read_basic_data_types" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wdi.cipherrandomaccess.CipherRandomAccessFile.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wdi.cipherrandomaccess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wdi.cipherrandomaccess" />
+      <option name="MAIN_CLASS_NAME" value="wdi.cipherrandomaccess.ReadWriteTest" />
+      <option name="METHOD_NAME" value="write_read_basic_data_types" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ReadWriteTest" />
+        <item itemvalue="JUnit.ReadWriteTest.write_read_basic_data_types" />
+        <item itemvalue="JUnit.BasicConstructorTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3edf3e73-530c-4313-a2fe-a1af9484c246" name="Default Changelist" comment="" />
+      <created>1545765080945</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545765080945</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ReadWriteTest_write_read_basic_data_types - 2018.12.25 at 21h 25m 33s.xml">
+      <configuration name="ReadWriteTest.write_read_basic_data_types" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReadWriteTest_write_read_basic_data_types - 2018.12.25 at 21h 28m 11s.xml">
+      <configuration name="ReadWriteTest.write_read_basic_data_types" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReadWriteTest - 2018.12.25 at 21h 28m 26s.xml">
+      <configuration name="ReadWriteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReadWriteTest - 2018.12.25 at 21h 42m 49s.xml">
+      <configuration name="ReadWriteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReadWriteTest - 2018.12.25 at 21h 43m 49s.xml">
+      <configuration name="ReadWriteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReadWriteTest - 2018.12.26 at 15h 10m 37s.xml">
+      <configuration name="ReadWriteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReadWriteTest - 2018.12.26 at 15h 12m 50s.xml">
+      <configuration name="ReadWriteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReadWriteTest - 2018.12.26 at 15h 14m 10s.xml">
+      <configuration name="ReadWriteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReadWriteTest - 2018.12.26 at 15h 18m 06s.xml">
+      <configuration name="ReadWriteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReadWriteTest - 2018.12.26 at 15h 48m 55s.xml">
+      <configuration name="ReadWriteTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="1177" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18743344" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32956687" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32956687" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32956687" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32956687" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32956687" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32956687" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Kotlin Bytecode" order="9" weight="0.32960597" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/d46e00faac79f8ec6bb956154ecde4282871a6bf/kotlin-stdlib-1.3.11-sources.jar!/kotlin/Primitives.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="206" column="25" selection-start-line="206" selection-start-column="25" selection-end-line="206" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/wdi/cipherrandomaccess/BasicConstructorTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="66" column="105" lean-forward="true" selection-start-line="66" selection-start-column="105" selection-end-line="66" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/io/DataInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="342" column="47" selection-start-line="342" selection-start-column="47" selection-end-line="342" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/wdi/cipherrandomaccess/ReadWriteTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6840">
+          <caret line="460" column="35" selection-start-line="460" selection-start-column="35" selection-end-line="460" selection-end-column="35" />
+          <folding>
+            <element signature="e#32#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/wdi/cipherrandomaccess/CipherRandomAccessFile.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="95" lean-forward="true" selection-start-line="16" selection-start-column="95" selection-end-line="16" selection-end-column="95" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
