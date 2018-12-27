@@ -45,5 +45,9 @@ These system should provide some (secure) way to store the necessary keys, IVs a
 HMACs for the encrypted attachment/files. Some sort of an encrypted database would
 be of great help (SqlCipher is one example).
 
+
+#### License ####
+Licensed using Apache 2.0 license.
+
 [so_1]: https://crypto.stackexchange.com/questions/10044/aes-ctr-with-similar-ivs-and-same-key
 
