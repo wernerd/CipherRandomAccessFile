@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2018 Werner Dittman
+ * Copyright (c) 2018 Werner Dittmann
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,6 @@
  * limitations under the License.
  *
  */
-
 package wdi.cipherrandomaccess
 
 import org.junit.jupiter.api.AfterEach

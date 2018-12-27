@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3edf3e73-530c-4313-a2fe-a1af9484c246" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/werner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/werner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/wdi/cipherrandomaccess/CipherRandomAccessFile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/wdi/cipherrandomaccess/CipherRandomAccessFile.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/wdi/cipherrandomaccess/BasicConstructorTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/wdi/cipherrandomaccess/BasicConstructorTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/wdi/cipherrandomaccess/ReadWriteTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/wdi/cipherrandomaccess/ReadWriteTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -29,20 +25,11 @@
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/wdi/cipherrandomaccess/CipherRandomAccessFile.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#632#955#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/kotlin/wdi/cipherrandomaccess/BasicConstructorTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -59,20 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/wdi/cipherrandomaccess/ReadWriteTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6840">
-              <caret line="460" column="35" selection-start-line="460" selection-start-column="35" selection-end-line="460" selection-end-column="35" />
+            <state relative-caret-position="15">
+              <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
               <folding>
                 <element signature="e#32#169#0" expanded="true" />
               </folding>
@@ -110,11 +88,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/kotlin/wdi/cipherrandomaccess/ReadWriteTest.kt" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/src/main/kotlin/wdi/cipherrandomaccess/CipherRandomAccessFile.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/wdi/cipherrandomaccess/BasicConstructorTest.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/wdi/cipherrandomaccess/ReadWriteTest.kt" />
       </list>
     </option>
   </component>
@@ -151,21 +129,6 @@
               <item name="CipherRandomAccessFile" type="b2602c69:ProjectViewProjectNode" />
               <item name="CipherRandomAccessFile" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CipherRandomAccessFile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CipherRandomAccessFile" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="cipherrandomaccess" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CipherRandomAccessFile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CipherRandomAccessFile" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -174,14 +137,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CipherRandomAccessFile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CipherRandomAccessFile" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="cipherrandomaccess" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,8 +147,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545904446877" />
-    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545905349595" />
+    <property name="settings.editor.selected.configurable" value="copyright.profiles" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -278,13 +233,24 @@
       <option name="project" value="LOCAL" />
       <updated>1545838269527</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add license information (Apache 2.0)">
+      <created>1545904603888</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545904603889</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add some missing IDE files, remove some redundant code in test case">
+      <created>1545905151372</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1545905151372</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReadWriteTest_write_read_basic_data_types - 2018.12.25 at 21h 25m 33s.xml">
-      <configuration name="ReadWriteTest.write_read_basic_data_types" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ReadWriteTest_write_read_basic_data_types - 2018.12.25 at 21h 28m 11s.xml">
       <configuration name="ReadWriteTest.write_read_basic_data_types" configurationId="JUnit" />
     </history-entry>
@@ -312,11 +278,14 @@
     <history-entry file="ReadWriteTest - 2018.12.26 at 15h 48m 55s.xml">
       <configuration name="ReadWriteTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ReadWriteTest - 2018.12.27 at 11h 03m 33s.xml">
+      <configuration name="ReadWriteTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1177" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18903089" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18903089" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -325,7 +294,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32956687" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32956687" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -349,7 +318,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Add license information (Apache 2.0)" />
+    <MESSAGE value="Add some missing IDE files, remove some redundant code in test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add some missing IDE files, remove some redundant code in test case" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/settings.gradle">
@@ -383,16 +354,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/wdi/cipherrandomaccess/ReadWriteTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6840">
-          <caret line="460" column="35" selection-start-line="460" selection-start-column="35" selection-end-line="460" selection-end-column="35" />
-          <folding>
-            <element signature="e#32#169#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -418,7 +379,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/wdi/cipherrandomaccess/CipherRandomAccessFile.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#632#955#0" expanded="true" />
@@ -430,6 +391,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#639#848#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/wdi/cipherrandomaccess/DataIoTests.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/wdi/cipherrandomaccess/ReadWriteTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+          <folding>
+            <element signature="e#32#169#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

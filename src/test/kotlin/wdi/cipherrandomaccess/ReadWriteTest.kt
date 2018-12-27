@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2018 Werner Dittman
+ * Copyright (c) 2018 Werner Dittmann
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,6 @@
  * limitations under the License.
  *
  */
-
 package wdi.cipherrandomaccess
 
 import org.junit.jupiter.api.*
@@ -143,7 +142,6 @@ class ReadWriteTest {
         val encryptedArray = ByteArray(256)
         val read = craf.read(encryptedArray)
         Assertions.assertEquals(testDataArray.size, read)
-        craf.close()
 
         for ((i, b) in testDataArray.withIndex()) Assertions.assertEquals(
             b,
@@ -168,7 +166,6 @@ class ReadWriteTest {
 
         val encryptedArray = ByteArray(256)
         craf.readFully(encryptedArray)
-        craf.close()
 
         for ((i, b) in testDataArray.withIndex()) Assertions.assertEquals(
             b,
@@ -196,7 +193,6 @@ class ReadWriteTest {
             EOFException::class.java,
             { craf.readFully(encryptedArray) }) { "Does not throw exception" }
 
-        craf.close()
     }
 
     @Test
@@ -216,7 +212,6 @@ class ReadWriteTest {
 
         val encryptedArray = ByteArray(4)
         craf.read(encryptedArray)
-        craf.close()
 
         Assertions.assertEquals(testDataArray[14], encryptedArray[0])
         Assertions.assertEquals(testDataArray[15], encryptedArray[1])
@@ -251,8 +246,6 @@ class ReadWriteTest {
 
         datum = craf.read()
         Assertions.assertEquals(testDataArray[17], datum.toByte())
-
-        craf.close()
     }
 
     @Test
@@ -279,7 +272,6 @@ class ReadWriteTest {
 
         val encryptedArray = ByteArray(testDataArray.size)
         craf.read(encryptedArray)
-        craf.close()
 
         for ((i, b) in testDataArray.withIndex()) Assertions.assertEquals(
             b,
@@ -314,7 +306,6 @@ class ReadWriteTest {
 
         val encryptedArray = ByteArray(4)
         craf.read(encryptedArray)
-        craf.close()
 
         Assertions.assertEquals(testDataArray[0], encryptedArray[0])
         Assertions.assertEquals(testDataArray[1], encryptedArray[1])
@@ -348,7 +339,6 @@ class ReadWriteTest {
                 encryptedArray[i]
             ) { "Failed at index $i, data ${encryptedArray[i]}, loop $k" }
         }
-        craf.close()
     }
 
     @Test
@@ -380,8 +370,6 @@ class ReadWriteTest {
         Assertions.assertEquals(testDataArray[255], encryptedArray[1])
         Assertions.assertEquals(testDataArray[0], encryptedArray[2])
         Assertions.assertEquals(testDataArray[1], encryptedArray[3])
-
-        craf.close()
     }
 
 
@@ -472,12 +460,13 @@ class ReadWriteTest {
 
     }
 
+    @Suppress("deprecation")
     @Test
     fun string_write_read() {
         // The functions writeBytes() and readLine() do not write/read real Java/Kotlin chars, only
         // the lower byte of a char, i.e. usable for ASCII mainly.
         val testString = "abcdef\n"
-        craf.writeBytes(testString)
+        craf.writeBytes(testString)     // deprecated function, see comment in CRAF class
         craf.seek(0)
 
         // readLine does not store the newline character in the returned string
