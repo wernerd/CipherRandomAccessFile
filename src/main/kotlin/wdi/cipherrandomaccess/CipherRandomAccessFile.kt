@@ -27,7 +27,6 @@ import java.io.UTFDataFormatException
 import javax.crypto.Cipher
 import javax.crypto.spec.SecretKeySpec
 
-
 /**
  * Instances of this class support both reading and writing to an encrypted random access file.
  *
@@ -66,7 +65,8 @@ import javax.crypto.spec.SecretKeySpec
  * be of great help (SqlCipher is one example).
  */
 class CipherRandomAccessFile
-@Throws(FileNotFoundException::class) constructor(file: File, mode: String) : DataInput, DataOutput, Closeable {
+@Throws(FileNotFoundException::class) constructor(file: File, mode: String) : DataInput, DataOutput,
+    Closeable {
 
     constructor(fileName: String, mode: String) : this(File(fileName), mode)
 
@@ -86,7 +86,6 @@ class CipherRandomAccessFile
     private val cipher by lazy { Cipher.getInstance("AES/ECB/NoPadding") }
     private var cipherInitialized = false
     private var cryptBuffer = ByteArray(0)
-
 
     // region Random access file function wrapper
 
@@ -124,7 +123,6 @@ class CipherRandomAccessFile
         return datum
     }
 
-
     /**
      * Read up to `len` bytes of data, decrypt and store them into an array of bytes.
      *
@@ -150,7 +148,6 @@ class CipherRandomAccessFile
     @Throws(IOException::class)
     fun read(buffer: ByteArray): Int {
         return read(buffer, 0, buffer.size)
-
     }
 
     /**
@@ -174,8 +171,8 @@ class CipherRandomAccessFile
      *
      * The write starts at the current file pointer.
      *
-     * @param      buffer   the `byte` to be written.
-     * @exception  IOException  if an I/O error occurs.
+     * @param buffer the `byte` to be written.
+     * @exception IOException if an I/O error occurs.
      */
     @Throws(IOException::class)
     override fun write(buffer: Int) {
@@ -192,8 +189,8 @@ class CipherRandomAccessFile
      *
      * The write starts at the current file pointer.
      *
-     * @param      buffer   the data.
-     * @exception  IOException  if an I/O error occurs.
+     * @param buffer the data.
+     * @exception IOException if an I/O error occurs.
      */
     @Throws(IOException::class)
     override fun write(buffer: ByteArray) {
@@ -205,10 +202,10 @@ class CipherRandomAccessFile
      *
      * The write starts at the current file pointer.
      *
-     * @param      buffer  the data.
-     * @param      offset  the start offset in the data.
-     * @param      len     the number of bytes to write.
-     * @exception  IOException  if an I/O error occurs.
+     * @param buffer the data.
+     * @param offset the start offset in the data.
+     * @param len the number of bytes to write.
+     * @exception IOException if an I/O error occurs.
      */
     @Throws(IOException::class)
     override fun write(buffer: ByteArray, offset: Int, len: Int) {
@@ -267,7 +264,12 @@ class CipherRandomAccessFile
      * destination to avoid overwriting the input data. The write functions deal with
      * this feature.
      */
-    private fun applyCryptTransform(inData: ByteArray, start: Int, length: Int, reading: Boolean = false) {
+    private fun applyCryptTransform(
+        inData: ByteArray,
+        start: Int,
+        length: Int,
+        reading: Boolean = false
+    ) {
         if (!cipherInitialized) throw IOException(" Cipher not initialized")
         if (length <= 0) return
 
@@ -275,7 +277,6 @@ class CipherRandomAccessFile
 
         val blockNumber = (positionInFile ushr CRYPT_BLOCK_SIZE_SHIFT).toInt()   // divide by 16
         var startOffset = (positionInFile and CRYPT_BLOCK_SIZE_MASK).toInt()     // what's left
-
 
         // use last 4 bytes as counter, put blockNumber in network order to last 4 bytes of IV
         var ivIdx = CRYPT_BLOCK_SIZE - COUNTER_BYTES
@@ -296,7 +297,8 @@ class CipherRandomAccessFile
             // byte array and truncate when storing in the array. Kotlin's experimental byte xor handling somehow
             // produces some more code when dealing with bytes.
 //            outBuffer[outIndex++] = inData[inOffset++] xor encryptedIvCtr[startOffset++]
-            outBuffer[outIndex++] = (inData[inOffset++].toInt() xor encryptedIvCtr[startOffset++].toInt()).toByte()
+            outBuffer[outIndex++] =
+                (inData[inOffset++].toInt() xor encryptedIvCtr[startOffset++].toInt()).toByte()
             if (startOffset >= CRYPT_BLOCK_SIZE && len > 0) {
                 incrementCounter()
                 cipher.doFinal(
@@ -335,7 +337,7 @@ class CipherRandomAccessFile
      *
      * A closed cipher random access file cannot perform input or output operations and cannot be reopened.
      *
-     * @exception  IOException  if an I/O error occurs.
+     * @exception IOException if an I/O error occurs.
      */
     @Throws(IOException::class)
     override fun close() {
@@ -389,13 +391,13 @@ class CipherRandomAccessFile
         if (bytesToSkip <= 0) {
             return 0
         }
-        val pointer = filePointer       // cache because 'filePointer' uses a system call to get file pointer
-        val fileLength = length         // cache because 'length' uses a system call to get file size
+        // cache these two because 'filePointer' and 'length' use a system call
+        val pointer = filePointer
+        val fileLength = length
 
         var newPointer = pointer + bytesToSkip
-        if (newPointer > fileLength) {
-            newPointer = fileLength
-        }
+        if (newPointer > fileLength) newPointer = fileLength
+
         seek(newPointer)
         return (newPointer - pointer).toInt()
     }

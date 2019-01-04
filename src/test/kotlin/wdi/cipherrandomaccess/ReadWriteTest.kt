@@ -16,7 +16,11 @@
  */
 package wdi.cipherrandomaccess
 
-import org.junit.jupiter.api.*
+import org.junit.jupiter.api.AfterEach
+import org.junit.jupiter.api.Assertions
+import org.junit.jupiter.api.BeforeAll
+import org.junit.jupiter.api.BeforeEach
+import org.junit.jupiter.api.Test
 import java.io.EOFException
 import java.io.File
 import java.io.IOException
@@ -51,7 +55,6 @@ class ReadWriteTest {
         if (testFile.exists()) testFile.delete()
         craf = CipherRandomAccessFile(TEST_FILE_NAME, "rw")
         craf.initializeCipher(KEY, IV)
-
     }
 
     @AfterEach
@@ -75,7 +78,9 @@ class ReadWriteTest {
     @Test
     fun cipher_not_initialized_write_then_ioException() {
         val racfLocal = CipherRandomAccessFile(TEST_FILE_NAME, "rw")
-        Assertions.assertThrows(IOException::class.java, { racfLocal.write(0) }) { "Does not throw exception" }
+        Assertions.assertThrows(
+            IOException::class.java,
+            { racfLocal.write(0) }) { "Does not throw exception" }
         racfLocal.close()
     }
 
@@ -114,8 +119,8 @@ class ReadWriteTest {
         val read = ra.read(encryptedArray)
         Assertions.assertEquals(testDataArray.size, read)
 
-
-        // With this test data and key setup we have a "same" value at index 68. That's OK because of counter mode
+        // With this test data and key setup we have a "same" value at index 68. That's OK because
+        // of counter mode.
         // This is just a coincidence of the test data and the way the check works
         for (i in 0..50) Assertions.assertNotEquals(
             encryptedArray[i],
@@ -192,7 +197,6 @@ class ReadWriteTest {
         Assertions.assertThrows(
             EOFException::class.java,
             { craf.readFully(encryptedArray) }) { "Does not throw exception" }
-
     }
 
     @Test
@@ -278,7 +282,6 @@ class ReadWriteTest {
             encryptedArray[i]
         ) { "Failed at index $i, data ${encryptedArray[i]}" }
     }
-
 
     @Test
     fun seek_write_bytes_seek_read_then_check_data() {
@@ -372,7 +375,6 @@ class ReadWriteTest {
         Assertions.assertEquals(testDataArray[1], encryptedArray[3])
     }
 
-
     @Test
     fun write_read_basic_data_types() {
         craf.writeBoolean(true)
@@ -457,7 +459,6 @@ class ReadWriteTest {
         Assertions.assertEquals(Double.MAX_VALUE, craf.readDouble())
         Assertions.assertEquals(Double.MIN_VALUE, craf.readDouble())
         Assertions.assertEquals(-1.0, craf.readDouble())
-
     }
 
     @Suppress("deprecation")
@@ -466,12 +467,12 @@ class ReadWriteTest {
         // The functions writeBytes() and readLine() do not write/read real Java/Kotlin chars, only
         // the lower byte of a char, i.e. usable for ASCII mainly.
         val testString = "abcdef\n"
-        craf.writeBytes(testString)     // deprecated function, see comment in CRAF class
+        craf.writeBytes(testString) // deprecated function, see comment in CRAF class
         craf.seek(0)
 
         // readLine does not store the newline character in the returned string
         val readBack = craf.readLine()
-        Assertions.assertEquals(testString.substring(0, testString.length-1), readBack)
+        Assertions.assertEquals(testString.substring(0, testString.length - 1), readBack)
 
         val pos = craf.filePointer
         val utfString = "abäöüßéàâ∫√∑€Ωπ"

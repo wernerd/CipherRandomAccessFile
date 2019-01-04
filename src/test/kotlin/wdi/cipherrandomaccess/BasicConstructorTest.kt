@@ -84,7 +84,6 @@ class BasicConstructorTest {
         sf.close()
     }
 
-
     @Test
     fun has_file_mode_r_then_no_exception() {
 
@@ -103,7 +102,6 @@ class BasicConstructorTest {
         val sf = CipherRandomAccessFile(TEST_FILE_NAME, "rw"); Assertions.assertEquals(0L, sf.filePointer)
         sf.close()
     }
-
 
     @Test
     fun has_file_mode_rw_then_no_exception() {
